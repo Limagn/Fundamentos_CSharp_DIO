@@ -8,20 +8,51 @@ arrayInteiros[1] = 64;
 arrayInteiros[2] = 50;
 arrayInteiros[3] = 1;
 
+
+// O Array nasce e termina com o mesmo tamanho, portanto o resize por baixo dos panos, copia o array de referencia e aumenta o tamanho.
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
 Console.WriteLine("Percorrendo o Array com o FOR");
 for (int i = 0; i < arrayInteiros.Length; i++)
 {
     Console.WriteLine($"Posição Nº {i} - {arrayInteiros[i]}");
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Foreach possui menos código, porém não é possível utilizar contador, sem ter declarado anteriormente.
-int contador = 0;
-Console.WriteLine("Percorrendo o Array com o FOREACH");
-foreach (int num in arrayInteiros)
-{
-    Console.WriteLine($"Posição Nº {contador} - {num}");
-    contador++;
-}
+//int contador = 0;
+//Console.WriteLine("Percorrendo o Array com o FOREACH");
+//foreach (int num in arrayInteiros)
+//{
+//    Console.WriteLine($"Posição Nº {contador} - {num}");
+//    contador++;
+//}
 
 
 
