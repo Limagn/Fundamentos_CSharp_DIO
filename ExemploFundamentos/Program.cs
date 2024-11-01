@@ -10,7 +10,13 @@ arrayInteiros[3] = 1;
 
 
 // O Array nasce e termina com o mesmo tamanho, portanto o resize por baixo dos panos, copia o array de referencia e aumenta o tamanho.
-Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+
+// Copiando o array, assim como o resize faz
+int[] arrayInteirosDobrados = new int [arrayInteiros.Length * 2];
+Array.Copy(arrayInteirosDobrados, arrayInteiros, arrayInteiros.Length);
+
 
 Console.WriteLine("Percorrendo o Array com o FOR");
 for (int i = 0; i < arrayInteiros.Length; i++)
