@@ -13,7 +13,7 @@ class Program
             Console.WriteLine("Digite o segundo número inteiro:");
             int segundoNumero = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Selecione a opção desejada:");
+            Console.WriteLine("Digite o número da opção desejada:");
             Console.WriteLine("1 - Soma");
             Console.WriteLine("2 - Subtração");
             Console.WriteLine("3 - Multiplicação");
