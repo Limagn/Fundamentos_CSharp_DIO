@@ -1,28 +1,90 @@
 ﻿using ExemploFundamentos.Common.Models;
 
 
-int[] arrayInteiros = new int[4];
+List<string> listaString = new List<string>();
 
-arrayInteiros[0] = 72;
-arrayInteiros[1] = 64;
-arrayInteiros[2] = 50;
-arrayInteiros[3] = 1;
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
 
-
-// O Array nasce e termina com o mesmo tamanho, portanto o resize por baixo dos panos, copia o array de referencia e aumenta o tamanho.
-//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
-
-
-// Copiando o array, assim como o resize faz
-int[] arrayInteirosDobrados = new int [arrayInteiros.Length * 2];
-Array.Copy(arrayInteirosDobrados, arrayInteiros, arrayInteiros.Length);
 
 
 Console.WriteLine("Percorrendo o Array com o FOR");
-for (int i = 0; i < arrayInteiros.Length; i++)
+for (int i = 0; i < listaString.Count; i++)
 {
-    Console.WriteLine($"Posição Nº {i} - {arrayInteiros[i]}");
+    Console.WriteLine($"Posição Nº {i} - {listaString[i]}");
 }
+
+
+Console.WriteLine("Percorrendo o Array com o FOREACH");
+int j = 0;
+foreach(string estado in listaString)
+{
+    Console.WriteLine($"Posição Nº {j} - {estado}");
+    j++;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//int[] arrayInteiros = new int[4];
+
+//arrayInteiros[0] = 72;
+//arrayInteiros[1] = 64;
+//arrayInteiros[2] = 50;
+//arrayInteiros[3] = 1;
+
+
+//// O Array nasce e termina com o mesmo tamanho, portanto o resize por baixo dos panos, copia o array de referencia e aumenta o tamanho.
+////Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+
+//// Copiando o array, assim como o resize faz
+//int[] arrayInteirosDobrados = new int [arrayInteiros.Length * 2];
+//Array.Copy(arrayInteirosDobrados, arrayInteiros, arrayInteiros.Length);
+
+
+//Console.WriteLine("Percorrendo o Array com o FOR");
+//for (int i = 0; i < arrayInteiros.Length; i++)
+//{
+//    Console.WriteLine($"Posição Nº {i} - {arrayInteiros[i]}");
+//}
 
 
 
