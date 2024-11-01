@@ -6,23 +6,32 @@ List<string> listaString = new List<string>();
 listaString.Add("SP");
 listaString.Add("BA");
 listaString.Add("MG");
+listaString.Add("RJ");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Add("SC");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Remove("MG");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+//Console.WriteLine("Percorrendo o Array com o FOR");
+//for (int i = 0; i < listaString.Count; i++)
+//{
+//    Console.WriteLine($"Posição Nº {i} - {listaString[i]}");
+//}
 
 
-
-Console.WriteLine("Percorrendo o Array com o FOR");
-for (int i = 0; i < listaString.Count; i++)
-{
-    Console.WriteLine($"Posição Nº {i} - {listaString[i]}");
-}
-
-
-Console.WriteLine("Percorrendo o Array com o FOREACH");
-int j = 0;
-foreach(string estado in listaString)
-{
-    Console.WriteLine($"Posição Nº {j} - {estado}");
-    j++;
-}
+//Console.WriteLine("Percorrendo o Array com o FOREACH");
+//int j = 0;
+//foreach(string estado in listaString)
+//{
+//    Console.WriteLine($"Posição Nº {j} - {estado}");
+//    j++;
+//}
 
 
 
