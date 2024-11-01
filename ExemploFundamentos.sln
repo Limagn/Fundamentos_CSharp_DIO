@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemploFundamentos", "Exemp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemplosFundamentos.Common", "ExemplosFundamentos.Common\ExemplosFundamentos.Common.csproj", "{FAD1E15C-4B1C-4C2A-B947-B7D8A877A0C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploFundamentos.NET6", "ExemploFundamentos.NET6\ExemploFundamentos.NET6.csproj", "{D72835DB-2550-4259-91AC-87B573894FBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FAD1E15C-4B1C-4C2A-B947-B7D8A877A0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAD1E15C-4B1C-4C2A-B947-B7D8A877A0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAD1E15C-4B1C-4C2A-B947-B7D8A877A0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72835DB-2550-4259-91AC-87B573894FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72835DB-2550-4259-91AC-87B573894FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72835DB-2550-4259-91AC-87B573894FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72835DB-2550-4259-91AC-87B573894FBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
