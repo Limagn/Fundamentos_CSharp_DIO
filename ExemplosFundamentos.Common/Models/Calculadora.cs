@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExemploFundamentos.Models
+namespace ExemploFundamentos.Common.Models
 {
     public class Calculadora
     {

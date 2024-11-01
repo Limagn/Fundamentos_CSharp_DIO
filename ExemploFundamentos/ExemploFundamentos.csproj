@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ExemplosFundamentos.Common\ExemplosFundamentos.Common.csproj" />
+  </ItemGroup>
+
 </Project>

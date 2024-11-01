@@ -1,4 +1,4 @@
-﻿using ExemploFundamentos.Models;
+﻿using ExemploFundamentos.Common.Models;
 class Program
 {
     static void Main(string[] args)
